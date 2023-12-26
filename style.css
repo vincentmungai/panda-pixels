@@ -160,7 +160,7 @@ section .box {
 
 .services .box {
     width: 33.33%;
-    min-width: 150px;
+    min-width: 300px;
 }
 
 
