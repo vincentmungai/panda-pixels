@@ -25,7 +25,7 @@ section .box {
 }
 
 .bg-light {
-    background-color: #fff;
+    background-color: #ECF3D6;
 }
 
 .bg-light .heading h2 {
@@ -43,10 +43,10 @@ section .box {
 }
 
 .bg-dark .heading h2 {
-    color: #ffff;
+    color: #ECF3D6f;
 }
 .bg-dark .title {
-    color: #fff;
+    color: #ECF3D6;
 }
 .bg-dark p {
     color: #aaa;
@@ -127,7 +127,7 @@ section .box {
     height: 20px;
     border-radius: 50%;
     background-color: #444;
-    color: #fff;
+    color: #ECF3D6;
     font-size: 12px;
 }
 
@@ -193,7 +193,7 @@ section .box {
 .services .box .item h6 {
     font-size: 16px;
     line-height: 22px;
-    color: #fff;
+    color: #ECF3D6;
 }
 
 .services .box .item p {
@@ -265,8 +265,8 @@ section .box {
 }
 .gallery .active,
     .gallery li:hover{
-    color: #fff;
-    border-bottom: 1px solid #fff;
+    color: #ECF3D6;
+    border-bottom: 1px solid #ECF3D6;
 }
 
 .grid-wrapper {
@@ -385,7 +385,7 @@ section .box {
 
 .contact .form-box h2 {
     font-size: 22px;
-    color: #fffefe;
+    color: #ECF3D6efe;
 }
 
 
@@ -410,7 +410,7 @@ section .box {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 0rem;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #ECF3D6;
     border-radius: 1px;
 }
 
@@ -422,7 +422,7 @@ section .box {
 }
 
 .contact .box-input i {
-    color: #ffffff;
+    color: #ECF3D6ECF3D6;
 }
 
 .contact .box-input textarea,
@@ -431,7 +431,7 @@ section .box {
     font-size: 14px;
     border: none;
     background-color: transparent;
-    color: #ffffff;
+    color: #ECF3D6ECF3D6;
 }
 
 .contact .box-input textarea {
@@ -441,14 +441,14 @@ section .box {
 
 .contact .box-input textarea::placeholder,
 .contact .box-input input::placeholder {
-    color: #ffffff;
+    color: #ECF3D6ECF3D6;
     font-size: 12px;
     text-transform: capitalize;
 }
 
 
 .btn-send {
-    background-color: #fffefe;
+    background-color: #ECF3D6efe;
     color: #0b0b0b;
     padding: 0.75rem 1rem;
     border: none;
