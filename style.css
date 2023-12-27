@@ -360,29 +360,6 @@ section .box {
     padding: 2rem 1rem;
 }
 
-.contact .box-r:before {
-    content: '';
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    background-color: #F5C53E;
-    height: 90%;
-    width: 100%;
-    z-index: 0;
-}
-
-.box-r:after {
-    content: '';
-    width: 50%;
-    position: absolute;
-    top: -2%;
-    bottom: 17%;
-    left: -3%;
-    background-image: url(./images/dots.png);
-    background-repeat: repeat;
-    z-index: 0;
-}
-
 .contact .form-box h2 {
     font-size: 22px;
     color: #fff6d2;
