@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css">
+    <style>
+        .gallery-sec {
+            width: 18%;
+            height: 5%;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .gallery-sec:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+    </style>
+    <title>Image Gallery</title>
+</head>
+<body>
+    <!-- Your gallery items -->
+    <div class="gallery-sec" onclick="openCarousel('image1.jpg', 'image2.jpg', 'image3.jpg')"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <script>
+        function openCarousel(...images) {
+            // Create a modal or use an existing one
+            const modal = document.createElement('div');
+            modal.classList.add('modal');
+            document.body.appendChild(modal);
+
+            // Initialize Fotorama on the modal
+            const fotorama = document.createElement('div');
+            fotorama.classList.add('fotorama');
+            modal.appendChild(fotorama);
+
+            // Add images to Fotorama
+            for (const image of images) {
+                const img = document.createElement('img');
+                img.src = image;
+                fotorama.appendChild(img);
+            }
+
+            // Initialize Fotorama
+            $('.fotorama').fotorama();
+        }
+    </script>
+</body>
+</html>

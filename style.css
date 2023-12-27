@@ -25,7 +25,7 @@ section .box {
 }
 
 .bg-light {
-    background-color: #ECF3D6;
+    background-color: #FFF6D2;
 }
 
 .bg-light .heading h2 {
@@ -39,17 +39,17 @@ section .box {
 }
 
 .bg-dark {
-    background-color: #111;
+    background-color: #BDC7A3;
 }
 
 .bg-dark .heading h2 {
-    color: #ECF3D6f;
+    color: #FFF6D2f;
 }
 .bg-dark .title {
-    color: #ECF3D6;
+    color: #000;
 }
 .bg-dark p {
-    color: #aaa;
+    color: #000;
 }
 
 
@@ -127,7 +127,7 @@ section .box {
     height: 20px;
     border-radius: 50%;
     background-color: #444;
-    color: #ECF3D6;
+    color: #FFF6D2;
     font-size: 12px;
 }
 
@@ -145,7 +145,7 @@ section .box {
 }
 
 .signature {
-    width: 80px;
+    width: 10%;
 }
 
 
@@ -166,7 +166,7 @@ section .box {
 
 .services .box .item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /*column*/
     align-items: flex-start;
     text-align: left;
     gap: 1rem;
@@ -176,7 +176,7 @@ section .box {
 
 .services .box .item img {
     width: fit-content;
-    height: 60px;
+    height: 45px;
     overflow: hidden;
     object-fit: cover;
 }
@@ -185,7 +185,7 @@ section .box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     gap: 0.5rem;
 }
@@ -193,13 +193,13 @@ section .box {
 .services .box .item h6 {
     font-size: 16px;
     line-height: 22px;
-    color: #ECF3D6;
+    color: #000;
 }
 
 .services .box .item p {
     font-size: 14px;
     line-height: 20px;
-    color: #f1f1f1;
+    color: #000;
 }
 
 
@@ -260,13 +260,13 @@ section .box {
 .gallery li{
     font-size: 14px;
     line-height: 21px;
-    color: #999;
+    color: #fff;
     cursor: pointer;
 }
 .gallery .active,
     .gallery li:hover{
-    color: #ECF3D6;
-    border-bottom: 1px solid #ECF3D6;
+    color: #F5C53E;
+    border-bottom: 1px solid #fff;
 }
 
 .grid-wrapper {
@@ -385,7 +385,7 @@ section .box {
 
 .contact .form-box h2 {
     font-size: 22px;
-    color: #ECF3D6efe;
+    color: #fff6d2;
 }
 
 
@@ -410,7 +410,7 @@ section .box {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 0rem;
-    border-bottom: 1px solid #ECF3D6;
+    border-bottom: 1px solid #FFF6D2;
     border-radius: 1px;
 }
 
@@ -422,7 +422,7 @@ section .box {
 }
 
 .contact .box-input i {
-    color: #ECF3D6ECF3D6;
+    color: #FFF6D2;
 }
 
 .contact .box-input textarea,
@@ -431,7 +431,7 @@ section .box {
     font-size: 14px;
     border: none;
     background-color: transparent;
-    color: #ECF3D6ECF3D6;
+    color: #FFF6D2;
 }
 
 .contact .box-input textarea {
@@ -441,15 +441,48 @@ section .box {
 
 .contact .box-input textarea::placeholder,
 .contact .box-input input::placeholder {
-    color: #ECF3D6ECF3D6;
+    color: #FFF6D2;
     font-size: 12px;
     text-transform: capitalize;
 }
 
 
 .btn-send {
-    background-color: #ECF3D6efe;
+    background-color: #fff6d2;
     color: #0b0b0b;
     padding: 0.75rem 1rem;
     border: none;
+    font-family: 'Jost', sans-serif;
+}
+
+.gallery-sec{
+    width: 18%;
+    height: 5%;
+}
+
+.gallery-sec:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.btm-text{
+    color: #fff;
+}
+.btn {
+    box-shadow: 0px 0px 1% #11111149;
+    font-family: jost, sans-serif;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: linear-gradient(to top, #F5C53E 50%, white 50%);
+    background-size: 100% 200%; /* Initial background size */
+    transition: background-position 0.5s ease; /* Adjust the duration as needed */
+}
+
+.btn:hover {
+    background-position: 0% 100%; /* Final background position */
+    color: white;
+    transform: scale(1);
 }

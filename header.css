@@ -20,7 +20,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75em;
-    color: #999;
+    color: #000;
     overflow-x: hidden !important;
     background: #fff;
 }
@@ -30,7 +30,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75em;
-    color: #999;
+    color: #000;
     margin-bottom: 20px;
 }
 
@@ -66,7 +66,8 @@ img {
 
 
 .navbar {
-    position: absolute;
+    background-color: #BDC7A3;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -89,7 +90,7 @@ img {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -99,7 +100,7 @@ img {
     font-family: 'Jost', sans-serif;
     ;
     font-size: 25px;
-    color: #fff;
+    color: #000;
     letter-spacing: -5px;
 
 }
@@ -117,7 +118,7 @@ img {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    color: #F1F0E8;
+    color: #000;
     text-decoration: none;
 }
 
@@ -151,67 +152,32 @@ img {
 }
 
 .header .box h1 {
-    color: #fff;
+    color: #000;
 }
 
 .header .box .btn {
     padding: 0.25rem 1rem;
-    border: 1px solid #fff;
+    /*border: 1px solid #000;*/
     margin-right: 1rem;
     text-decoration: none;
     font-family: 'Jost', sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 14px;
-    color: #fff;
-    margin-bottom: 20px;
+    color: #000;
+    margin-bottom: 3%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ======= Footer style ======= */
 .footer {
-    background-image: url(./images/bg-footer.jpg);
-    background-position: center center;
+    background-color: #BDC7A3;
+    
+/*background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll
+    background-attachment: scroll*/
+    
 }
 
 .footer-logo {
@@ -229,7 +195,7 @@ img {
 }
 
 .newsletter h2 {
-    color: #fff;
+    color: #000;
     margin: 5px 0px;
 }
 
@@ -243,7 +209,7 @@ img {
     border-radius: 20px;
     overflow: hidden;
     border: 2px solid #fff;
-    color: #fff;
+    color: #000;
 }
 
 .newsletter .form form input {
@@ -251,7 +217,7 @@ img {
     padding: 0px 10px;
     height: 40px;
     border: none;
-    background-color: #fff;
+    background-color: #000;
 }
 .newsletter form button {
     width: 150px;
@@ -259,12 +225,12 @@ img {
     border: none;
     background-color: #000;
     font-size: 12px;
-    color: #fff;
+    color: #000;
 }
 
 /* second footer */
 .second-footer {
-    background-color: #000000d0;
+    background-color: #BDC7A3;
     padding: 4rem 0rem;
 
     border-bottom: 1px solid rgba(5, 5, 5, 0.1);
@@ -281,15 +247,16 @@ img {
 .second-footer .title {
     padding: 0;
     margin-bottom: 10px;
-    color: #fff;
+    color: #000;
     padding: 15px 0px;
 
 }
 
 .second-footer .text p {
-    font-size: 14px;
+    font-family: caveat;
+    font-size: 120%;
     line-height: 19px;
-    color: #bbb;
+    color: #F5C53E;
     padding: 15px 0px;
 }
 
@@ -306,13 +273,13 @@ img {
 .second-footer ul li span {
     font-size: 14px;
     font-weight: 400;
-    color: #aaa;
+    color: #262626;
     text-transform: capitalize;
     text-decoration: none;
 }
 
 .footer .box ul li a:hover {
-    color: #fff;
+    color: #000;
 }
 
 .copyright {
@@ -336,7 +303,7 @@ img {
 
 .social-icons {
     display: flex;
-    color: #fff;
+    color: #000;
     gap: 1rem;
 }
 
