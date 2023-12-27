@@ -256,7 +256,7 @@ img {
     font-family: caveat;
     font-size: 120%;
     line-height: 19px;
-    color: #F5C53E;
+    color: #000;
     padding: 15px 0px;
 }
 
@@ -285,7 +285,7 @@ img {
 .copyright {
     background-color: #000000c1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0.51rem 6%;
 

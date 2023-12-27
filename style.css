@@ -365,8 +365,8 @@ section .box {
     position: absolute;
     top: 30px;
     left: 30px;
-    background-color: #b506066b;
-    height: 100%;
+    background-color: #F5C53E;
+    height: 90%;
     width: 100%;
     z-index: 0;
 }
@@ -375,9 +375,9 @@ section .box {
     content: '';
     width: 50%;
     position: absolute;
-    top: -8%;
-    bottom: 55%;
-    left: -5%;
+    top: -2%;
+    bottom: 17%;
+    left: -3%;
     background-image: url(./images/dots.png);
     background-repeat: repeat;
     z-index: 0;
@@ -456,7 +456,8 @@ section .box {
 }
 
 .gallery-sec{
-    width: 18%;
+    margin: 1%;
+    width: 20%;
     height: 5%;
 }
 
