@@ -130,7 +130,7 @@ img {
 .header {
     background-image: url(./images/header.jpg);
     min-height: 100vh;
-    background-color: #111;
+    background-color: #BDC7A3;
     background-position: top right;
     background-size: cover;
     background-attachment: fixed;
@@ -139,7 +139,7 @@ img {
 
 .header {
     min-height: 100vh;
-    background-color: #111;
+    background-color: #BDC7A3;
     display: flex;
     align-items: center;
 
