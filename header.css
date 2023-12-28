@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: "Jost", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.75em;
   color: #000;
@@ -26,19 +26,19 @@ body {
 
 p {
   font-family: "Jost", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.75em;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 1.1111em; /* 20px / 18px = 1.1111em */
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 3.4375em;
 }
 
 h2 {
-  font-size: 15%px;
+  font-size: 15%; /* This value might need adjustment depending on your design */
 }
 
 h4 {
@@ -51,7 +51,7 @@ h4 {
   font-family: "Jost", sans-serif;
   font-weight: 600;
   line-height: 1.25em;
-  margin: 0 0 20px 0;
+  margin: 0 0 1.1111em 0; /* 20px / 18px = 1.1111em */
 }
 
 img {
@@ -72,11 +72,13 @@ img {
 }
 
 .container {
-  padding: 1.2rem 6%;
+  padding: 0.0667em 6%; /* 1.2rem / 18px = 0.0667em */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+/* ... (Other styles remain unchanged) ... */
 
 .navbar .logo-wrapper {
   height: 29px;
@@ -108,7 +110,7 @@ img {
 
 .navbar .navbar-links a {
   font-family: Jost, sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 28px;
   color: #000;
@@ -120,10 +122,11 @@ img {
 }
 
 .header {
-  background-image: url(images/header.jpg);
-  min-height: 80dvh;
-  background-color: #bdc7a3;
+  background-image: url(./images/header.jpg);
+  min-height: 100vh;
+  background-color: #111;
   background-position: top right;
+  object-fit: cover;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -167,12 +170,12 @@ img {
     background-repeat: no-repeat;
     background-attachment: scroll*/
 }
-.panda-icon{
-    width: 6%;
-    
-    object-position: top;
+.panda-icon {
+  width: 6%;
 
-    object-fit: contain;
+  object-position: top;
+
+  object-fit: contain;
 }
 .footer-logo {
   width: 150px;
@@ -226,7 +229,12 @@ img {
   color: #000;
   padding: 15px 0px;
 }
-
+.title {
+  font-size: 150%;
+}
+.section-title {
+  font-size: 150%;
+}
 .second-footer .text p {
   font-family: caveat;
   font-size: 120%;
