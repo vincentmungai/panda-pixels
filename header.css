@@ -126,9 +126,8 @@ img {
   min-height: 100vh;
   background-color: #111;
   background-position: top right;
-  object-fit: cover;
+  object-fit: contain;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .header {
